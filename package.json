@@ -1,0 +1,26 @@
+{
+  "name": "learning-git-2",
+  "version": "1.0.0",
+  "description": "https://mustaf115.github.io/learning-git-2/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "autoprefixer": "autoprefixer-cli -o styles/style.prefixed.css styles/style.css",
+    "checker": "nu-html-checker index.html",
+    "all": "npm run autoprefixer && npm run checker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustaf115/learning-git-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustaf115/learning-git-2/issues"
+  },
+  "homepage": "https://github.com/mustaf115/learning-git-2#readme",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "nu-html-checker": "^0.1.0"
+  }
+}

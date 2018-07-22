@@ -1,0 +1,5 @@
+autoprefixer i walidator uruchamiają się przez skrypty npm
+
+"npm run autoprefixer" uruchamia "autoprefixer-cli -o styles/style.prefixed.css styles/style.css"
+
+"npm run checker" uruchamia "nu-html-checker index.html"
