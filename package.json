@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "autoprefixer": "autoprefixer-cli -o styles/style.prefixed.css styles/style.css",
     "checker": "nu-html-checker index.html",
-    "all": "npm run autoprefixer && npm run checker"
+    "all": "npm run autoprefixer && npm run checker",
+    "sync": "browser-sync -s"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/mustaf115/learning-git-2#readme",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.24.6",
     "nu-html-checker": "^0.1.0"
   }
 }
