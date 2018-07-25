@@ -19,3 +19,10 @@ p {
 h1 {
     background: crimson;
 }
+.test {
+	display: flex;
+	flex-wrap: wrap;
+}
+.test2 {
+    display: grid;
+}
